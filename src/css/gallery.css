@@ -21,3 +21,13 @@ body {
 .gallery-image {
   border-radius: 4px;
 }
+
+.sl-wrapper.simple-lightbox .sl-navigation button,
+.sl-wrapper.simple-lightbox .sl-close,
+.sl-wrapper.simple-lightbox .sl-counter {
+  color: #fff;
+}
+
+body .sl-overlay {
+  background: rgba(46, 47, 66, 0.8);
+}
