@@ -7,8 +7,8 @@ let formData = {
 
 //function save formData & local
 function saveData() {
-  formData.email = form.elements.email.value;
-  formData.message = form.elements.message.value;
+  formData.email = form.elements.email.value.trim();
+  formData.message = form.elements.message.value.trim();
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
 
